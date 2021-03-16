@@ -38,12 +38,6 @@ def extractData(txn_hash):
     
     data_lst = ",".join([str(gp), str(gl), str(tf), str(ts), str(pt)])
 
-    # end = time.time()
-
-    # times.append(end - start)
-
-    # print("average time per tx: ", round(sum(times) / len(times), 2), " seconds", end = '\r')
-
     return data_lst, "pass"
 
 
